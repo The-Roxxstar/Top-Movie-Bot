@@ -95,10 +95,10 @@ VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '')
 # if verify second shortner is True then fill below url and api
 VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', '')
 VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
-VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/ultroid_official/18')
+VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/i_popcorn_movie_update/31')
 
 # Shortlink Info
-SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True))
+SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'evolinks.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'd2e71fffacb476bacc31a521cc42df4833e0e795')
 
